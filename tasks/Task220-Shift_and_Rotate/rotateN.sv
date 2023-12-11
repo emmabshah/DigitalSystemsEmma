@@ -5,4 +5,14 @@ module rotateN #(parameter N=8) (output logic[N-1:0] Y, input logic[N-1:0] X, lo
 assign Y = (DIR == 1) ? { X[0], X[N-1:1] } : { X[N-2:0], X[N-1] };
 
 endmodule
+/*module rotateN;
 
+parameter N=8;
+logic [N-1:0] X;
+logic [N-1:0] Y;
+logic DIR;
+int n;
+
+rotateN #(.N(N)) u1(Y, X, DIR);
+initial 
+begin 

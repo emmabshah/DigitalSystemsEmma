@@ -8,5 +8,6 @@ always_comb
 	else if (s == 2)
 	   out = x[2];
 	else
-	   out = x[3];
+	   out = x[3]; 
 endmodule
+

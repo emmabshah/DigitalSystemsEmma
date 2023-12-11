@@ -1,9 +1,7 @@
-module adder_N_tb;
+/*module adder_8_tb;
 
 	parameter N = 3;
 
-	//logic [N-1:0] Sum_ripple;
-	//logic Cout_ripple;
 	logic [N-1:0] P, Q;
 	logic [N-1:0] SUM;
 	logic Cout;
@@ -24,10 +22,8 @@ module adder_N_tb;
 		S = c + i + j;	//Integer summation
                 #10ps;
 		assert ({Cout,SUM} == S) $display("PASS"); else $display("ERROR %d + %d + %d <> %d", c, i, j, SUM);
-		//assert ({Cout_ripple, Sum_ripple} == S) $display("PASS"); else $display("ERROR %d + %d + %d <> %d", c, i, j, Sum_ripple);
-
               end
             end
 	  end
 	end
-endmodule
+endmodule */
